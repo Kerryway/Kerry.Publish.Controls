@@ -1,0 +1,10 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:Kerry.Publish.Controls">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="pack://application:,,,/Kerry.Publish.Controls;Component/Themes/EditorControl/EditorComboBoxDataGridControl.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+
+    
+</ResourceDictionary>

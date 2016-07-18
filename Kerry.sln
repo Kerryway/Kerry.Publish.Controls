@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Kerry.Resources", "01.Kerry.Resources", "{F312B99F-D65A-479C-A0E9-6D44CCA37C69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Kerry.Freakwork", "02.Kerry.Freakwork", "{628D4999-4C9D-4628-B71A-A3879BB4C8D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Kerry.Laser.Host", "03.Kerry.Laser.Host", "{D9492853-838D-4259-87BA-8F8BF5D293B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kerry.Publish.Controls", "02.Kerry.Freakwork\Kerry.Publish.Controls\Kerry.Publish.Controls.csproj", "{02C43C17-A4B6-4DF5-8E49-040CE39F4DD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kerry.Publish.TestApp", "Kerry.Publish.TestApp\Kerry.Publish.TestApp.csproj", "{35F29C13-15D3-4869-868C-62A8EEAED43F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02C43C17-A4B6-4DF5-8E49-040CE39F4DD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02C43C17-A4B6-4DF5-8E49-040CE39F4DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02C43C17-A4B6-4DF5-8E49-040CE39F4DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02C43C17-A4B6-4DF5-8E49-040CE39F4DD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35F29C13-15D3-4869-868C-62A8EEAED43F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35F29C13-15D3-4869-868C-62A8EEAED43F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35F29C13-15D3-4869-868C-62A8EEAED43F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35F29C13-15D3-4869-868C-62A8EEAED43F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02C43C17-A4B6-4DF5-8E49-040CE39F4DD7} = {628D4999-4C9D-4628-B71A-A3879BB4C8D2}
+		{35F29C13-15D3-4869-868C-62A8EEAED43F} = {D9492853-838D-4259-87BA-8F8BF5D293B4}
+	EndGlobalSection
+EndGlobal
